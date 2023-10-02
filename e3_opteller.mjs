@@ -7,9 +7,14 @@ const userInput = readline.createInterface({input, output});
 
 
 // Voeg hier je eigen code in
-let getal1 = parseFloat(await userInput.question('Geef een getal in:'));
-let getal2 = parseFloat(await userInput.question('Geef andere getal in:'));
+/*let getal1 = parseFloat(await userInput.question('Geef een getal in:'));
+let getal2 = parseFloat(await userInput.question('Geef andere getal in:'));*/
+/*process.exit();*/
+
+let getal1= 6 ;
+let getal2= 4 ;
+getal1 ='6';
 console.log(getal1 + getal2);
-
-
-process.exit();
+console.log(getal1 - getal2);
+console.log(getal1 * getal2);
+console.log(getal1 / getal2);
